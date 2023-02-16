@@ -115,6 +115,9 @@ main {
 .faq-main {
   height: 180vh; }
 
+.gallery-main {
+  height: 180vh; }
+
 .flex-gallery {
   display: flex;
   padding-top: 10vh;
@@ -194,7 +197,11 @@ main {
     padding-top: 200px;
     font-size: 20px; }
   .faq-main {
-    height: 200vh; } }
+    height: 200vh; }
+  .gallery-main {
+    height: 120vh; }
+  .gallery-carousel {
+    margin: 10vh; } }
 
 @media (max-width: 425px) {
   .purchase-grid__container {
@@ -221,4 +228,6 @@ main {
   .logo-image {
     max-width: 280px; }
   .faq-main {
-    height: 400vh; } }
+    height: 400vh; }
+  .gallery-carousel {
+    margin: 1vh; } }

@@ -32,6 +32,12 @@
    .faq-main{
     height: 200vh;
 }
+.gallery-main{
+    height: 120vh;
+}
+.gallery-carousel{
+    margin: 10vh;
+}
 }
 
 @media (max-width: 425px){
@@ -70,4 +76,7 @@
    .faq-main{
        height: 400vh;
    }
+   .gallery-carousel{
+    margin: 1vh;
+}
 }
