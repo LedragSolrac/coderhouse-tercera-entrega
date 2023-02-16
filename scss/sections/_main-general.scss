@@ -1,0 +1,17 @@
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0,0,0,0.7)),url("../resources/wallpaperbetter.com_7680x4320.jpg");
+    /* height: 100%;
+    width: 100%; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: $typo-main;
+    font-weight: 500;
+    color: $color-1;  
+}
+
+main{
+    height: 150vh;
+}
+

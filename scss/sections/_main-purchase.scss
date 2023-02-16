@@ -1,0 +1,59 @@
+.flex-purchease__grid{
+    display: flex;
+    justify-content: center;
+}
+
+.flex-purchase_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.purchase-grid__container {
+    display: grid;
+    margin: 16px;
+    font-size: 20px;
+    border: 3px solid black;
+    background-color: rgba(22, 17, 17, 0.7);
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+        "purchase-standard_edition purchase-premium_edition purchase-collectors_edition"
+        "standard-fullgame premium-fullgame collectors-fullgame"
+        "standard-cosmetic premium-cosmetic collectors-cosmetic"
+        "standard-currency premium-currency collectors-currency"
+        "standard-ost premium-ost collectors-ost"
+        "standard-physical premium-physical collectors-physical"
+        "standard-price premium-price collectors-price"
+        "standard-purchase premium-purchase collectors-purchase";
+    height: 80vh;
+    justify-items: center;
+    align-items: center; 
+}
+
+.purchase-options{
+    font-size: 25px;
+}
+.purchase-notincluded{
+    text-decoration: line-through;
+}
+
+.purchase-button{
+    background-color: rgba(145, 39, 7, 0.7);
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid rgba(0, 0, 0, 0.7);
+    transition-duration: 0.1s;
+}
+
+.purchase-button:hover{
+    background-color: rgba(221, 60, 10, 0.7);
+}
+
+.purchase-button:active{
+    background-color: rgba(255, 60, 10, 0.7);
+    transform: translateY(1px);
+}

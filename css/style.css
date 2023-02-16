@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none;
+  color: #9b1212;
+  font-weight: 1000;
+  font-family: "Rubik Mono One", sans-serif; }
+
+footer {
+  height: 20vh;
+  color: #9b1212;
+  background: black;
+  background: linear-gradient(0deg, black 82%, rgba(0, 212, 255, 0) 100%); }
+
+.flex-footer {
+  display: flex;
+  height: 20vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center; }
+
+.main-logo {
+  width: 15vh; }
+
+.flex-father {
+  display: flex;
+  list-style: none;
+  font-size: 25px;
+  justify-content: flex-start;
+  align-items: center;
+  height: 18vh; }
+
+.menu-noImage {
+  margin: 25px; }
+
+.menu-image {
+  margin: 0px 25px 0px 25px; }
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../resources/wallpaperbetter.com_7680x4320.jpg");
+  /* height: 100%;
+    width: 100%; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Rubik Mono One", sans-serif;
+  font-weight: 500;
+  color: #9b1212; }
+
+main {
+  height: 150vh; }
+
+.flex-main_logo {
+  display: flex;
+  padding-top: 200px;
+  justify-content: center; }
+
+.flex-main_text {
+  display: flex;
+  justify-content: center;
+  padding-top: 410px;
+  font-size: 25px; }
+
+.flex-faq_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10vh;
+  padding-bottom: 10vh; }
+
+.flex-faq {
+  display: flex;
+  height: 85vh;
+  display: list-item; }
+
+.flex-faq li {
+  list-style: inside;
+  font-size: 25px;
+  padding: 20px;
+  margin: 20px; }
+
+.faq-answers {
+  font-size: 20px;
+  padding-top: 2rem; }
+
+.faq-fake_important {
+  font-size: 20px;
+  text-decoration: underline; }
+
+.faq-main {
+  height: 180vh; }
+
+.flex-purchease__grid {
+  display: flex;
+  justify-content: center; }
+
+.flex-purchase_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10vh;
+  padding-bottom: 10vh; }
+
+.purchase-grid__container {
+  display: grid;
+  margin: 16px;
+  font-size: 20px;
+  border: 3px solid black;
+  background-color: rgba(22, 17, 17, 0.7);
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: "purchase-standard_edition purchase-premium_edition purchase-collectors_edition" "standard-fullgame premium-fullgame collectors-fullgame" "standard-cosmetic premium-cosmetic collectors-cosmetic" "standard-currency premium-currency collectors-currency" "standard-ost premium-ost collectors-ost" "standard-physical premium-physical collectors-physical" "standard-price premium-price collectors-price" "standard-purchase premium-purchase collectors-purchase";
+  height: 80vh;
+  justify-items: center;
+  align-items: center; }
+
+.purchase-options {
+  font-size: 25px; }
+
+.purchase-notincluded {
+  text-decoration: line-through; }
+
+.purchase-button {
+  background-color: rgba(145, 39, 7, 0.7);
+  font-size: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  border: 2px solid rgba(0, 0, 0, 0.7);
+  transition-duration: 0.1s; }
+
+.purchase-button:hover {
+  background-color: rgba(221, 60, 10, 0.7); }
+
+.purchase-button:active {
+  background-color: rgba(255, 60, 10, 0.7);
+  transform: translateY(1px); }
+
+@media (max-width: 768px) {
+  .purchase-grid__container {
+    font-size: 12px;
+    width: 80vw; }
+  .purchase-options {
+    font-size: 18px; }
+  .purchase-button {
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 8px; }
+  .flex-father {
+    list-style: none;
+    font-size: 15px; }
+  .main-logo {
+    width: 10vh; }
+  .menu-noImage {
+    margin: 20px; }
+  .menu-image {
+    margin: 0px 20px 0px 20px; }
+  .flex-main_text {
+    padding-top: 200px;
+    font-size: 20px; }
+  .faq-main {
+    height: 200vh; } }
+
+@media (max-width: 425px) {
+  .purchase-grid__container {
+    font-size: 10px;
+    width: 100vw; }
+  .purchase-options {
+    font-size: 15px; }
+  .purchase-button {
+    font-size: 10px;
+    padding: 5px;
+    border-radius: 8px; }
+  .flex-father {
+    list-style: none;
+    font-size: 10px; }
+  .main-logo {
+    width: 8vh; }
+  .menu-noImage {
+    margin: 5px; }
+  .menu-image {
+    margin: 0px 15px 0px 15px; }
+  .flex-main_text {
+    padding-top: 100px;
+    font-size: 10px; }
+  .logo-image {
+    max-width: 280px; }
+  .faq-main {
+    height: 400vh; } }
