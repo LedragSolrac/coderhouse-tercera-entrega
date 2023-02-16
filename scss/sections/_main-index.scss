@@ -1,11 +1,20 @@
+.index-main{
+    height: 180vh;
+}
+
 .flex-main_logo{
     display: flex;
-    padding-top: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     justify-content: center;
 }
 .flex-main_text{
     display: flex;
     justify-content: center;
-    padding-top: 410px;
+    padding-top: 100px;
     font-size: 25px;
+}
+
+.index-carousel{
+    margin: 15vh;
 }
