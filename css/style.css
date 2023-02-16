@@ -75,6 +75,17 @@ main {
 .index-carousel {
   margin: 15vh; }
 
+.flex-characters_title {
+  display: flex;
+  padding: 40px;
+  margin: 20px; }
+
+.flex-characters {
+  display: flex; }
+
+.characters-cards {
+  margin: 15px; }
+
 .flex-faq_title {
   display: flex;
   justify-content: center;
