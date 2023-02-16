@@ -6,9 +6,9 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    font-family: $typo-main;
+    font-family: $typo-main !important;
     font-weight: 500;
-    color: $color-1;  
+    color: $color-1 !important;  
 }
 
 main{

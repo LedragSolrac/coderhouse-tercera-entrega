@@ -5,10 +5,10 @@
   padding: 0; }
 
 a {
-  text-decoration: none;
-  color: #9b1212;
-  font-weight: 1000;
-  font-family: "Rubik Mono One", sans-serif; }
+  text-decoration: none !important;
+  color: #9b1212 !important;
+  font-weight: 1000 !important;
+  font-family: "Rubik Mono One", sans-serif !important; }
 
 footer {
   height: 20vh;
@@ -49,9 +49,9 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  font-family: "Rubik Mono One", sans-serif;
+  font-family: "Rubik Mono One", sans-serif !important;
   font-weight: 500;
-  color: #9b1212; }
+  color: #9b1212 !important; }
 
 main {
   height: 150vh; }
@@ -69,7 +69,8 @@ main {
   display: flex;
   justify-content: center;
   padding-top: 100px;
-  font-size: 25px; }
+  font-size: 25px;
+  font-family: "Rubik Wet Paint", cursive; }
 
 .index-carousel {
   margin: 15vh; }
@@ -108,7 +109,11 @@ main {
   padding-top: 10vh;
   padding-bottom: 10vh;
   padding-left: 5vh;
-  padding-right: 5vh; }
+  padding-right: 5vh;
+  justify-content: center; }
+
+.gallery-carousel {
+  margin: 15vh; }
 
 .flex-purchease__grid {
   display: flex;
